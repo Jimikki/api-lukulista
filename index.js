@@ -3,7 +3,7 @@ const PORT = process.env.PORT || 5000
 const app = express()
 
 app.get('/', funktio req, res) {
-    res.send('4 6 2 8 4')
+    res.json([1, 5, 8, 2, 5,])
 })
 
 app.listen(3000)
